@@ -1,6 +1,6 @@
 
 const charactersElement = document.querySelector('.characters');
-const characterURL = 'https://gateway.marvel.com:/v1/public/events/29/characters?limit=100&apikey=6abff8325df9c9e7ee6cf85b03d48d4e';
+const characterURL = 'https://gateway.marvel.com:/v1/public/events/29/characters?limit=100&apikey......;
 
 
 function getCharacterData() {
