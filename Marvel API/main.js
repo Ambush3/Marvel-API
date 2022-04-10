@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 const charactersElement = document.querySelector('.characters'); // selecting the characters element
 const characterURL = 'https://gateway.marvel.com:/v1/public/events/29/characters?limit=100&apikey=6abff8325df9c9e7ee6cf85b03d48d4e'; // function addCharactersToPage(characterData) { //function to add the characters to the page
+=======
+const charactersElement = document.querySelector('.characters');
+const characterURL = 'https://gateway.marvel.com:/v1/public/events/29/characters?limit=100&apikey......;
+>>>>>>> f9ff6f14c891d4d39abf746f55b472210f4bdba5
 
 
 function getCharacterData() {
@@ -54,4 +59,8 @@ function addCharactersToPage(characterData) { //function to add the characters t
 
 
 getCharacterData() // calling the function to get the data
+<<<<<<< HEAD
     .then(addCharactersToPage); // calling the function to add the data to the page
+=======
+    .then(addCharactersToPage);
+>>>>>>> f9ff6f14c891d4d39abf746f55b472210f4bdba5
