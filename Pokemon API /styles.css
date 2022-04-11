@@ -85,6 +85,11 @@ main {
   padding: 2rem;
 }
 
-input.custom {
+input {
   caret-color: red;
 }
+
+#search {
+  padding-top: 10px;
+}
+
