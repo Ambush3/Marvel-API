@@ -27,10 +27,20 @@ a {
 }
 
 main {
+
   width: 80%;
   margin: 0 auto;
-  margin-top: 20rem;
- 
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  display: flex;
 }
 
 .searchBox {
@@ -75,4 +85,6 @@ main {
   padding: 2rem;
 }
 
-
+input.custom {
+  caret-color: red;
+}
